@@ -1,0 +1,25 @@
+
+.container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(102, 51, 153, 0.146);
+}
+.delete-button{
+  visibility: hidden;
+  display: inline-block;
+
+}
+
+.table-row:hover .delete-button{
+  visibility: visible;
+
+}
+/* //eger table in uzerine gidersen button visible olur 
+  // baska bir elemanin baska bir elemani etkilemesi 
+*/
+
+.logo{
+  font-size: 300px;
+  text-align: center;
+}

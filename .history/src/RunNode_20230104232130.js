@@ -1,0 +1,1 @@
+cosnt stocks=["ADSFA","RRR",]
