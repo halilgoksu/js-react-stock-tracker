@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Courier New', Courier, monospace;
+  background-color: black;
+}
+.delete-button {
+  visibility: visible;
+  display: inline-block;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.073);
+}
+
+.arrow{
+  flex-direction:row;
+  align-items: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    font-size: 0.7rem;
+    
+  }
+ 
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    font-size: 0.4rem;
+    
+  }
+ 
+}
+@media only screen and (max-width: 900px) {
+  .container {
+    font-size: 1.2rem;
+    
+  }
+ 
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    font-size: 1.4rem;
+    
+  }
+ 
+}

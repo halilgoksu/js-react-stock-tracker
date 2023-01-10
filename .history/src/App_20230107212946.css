@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+.delete-button {
+  visibility: visible;
+  display: inline-block;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.073);
+}
+
+
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    font-size:1rem;
+    color: red;
+
+
+    
+  }
+ 
+}
+ 
+@media screen and (max-width: 720px) {
+  .container {
+    font-size: 1.2rem;
+    
+  }
+ 
+}
+
+@media screen and (max-width: 980px) {
+  .container {
+    font-size: 1.4rem;
+    
+  }
+ 
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  pad
+}
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}

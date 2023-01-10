@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.delete-button {
+  visibility: visible;
+  display: inline-block;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.073);
+}
+
+
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}
+
+.arrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}

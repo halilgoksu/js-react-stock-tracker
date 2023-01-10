@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+.delete-button {
+  visibility: hidden;
+  display: inline-block;
+}
+
+.table-row:hover .delete-button {
+  visibility: visible;
+}

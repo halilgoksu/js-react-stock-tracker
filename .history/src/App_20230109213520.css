@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  
+}
+
+
+.dropdown-menu{
+  position: relative;
+  left: 35%;
+  right: 35%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: fit-content;
+  font-size: small;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+  height: ;
+
+}
+.dropdown-item{
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+
+
