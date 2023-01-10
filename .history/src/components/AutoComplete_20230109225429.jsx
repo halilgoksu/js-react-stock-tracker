@@ -22,7 +22,11 @@ export const AutoComplete = () => {
         {results.map((result) => {
           return (
             <li onClick={() => {
-              addStock(result.description )
+              console.log("results"+results)
+              console.log("results addStock"+results.symbol)
+
+              addStock(result.symbol)
+              setSearch("")
             }} key={result.symbol} className="dropdown-item">{result.description} ({result.symbol})
           
             </li>

@@ -6,7 +6,7 @@ import {FaSearch} from "react-icons/fa"
 
 export const AutoComplete = () => {
   const [search, setSearch] = useState("")
-  const [results, setResults] = useState([])
+  const [results, setResults] = useState()
   const { addStock } = useContext(WatchListContext)
 
   const renderDropdown = () => {
@@ -22,7 +22,11 @@ export const AutoComplete = () => {
         {results.map((result) => {
           return (
             <li onClick={() => {
+              //console.log(results)
+              // console.log(result.symbol)
+
               addStock(result.description )
+              //setSearch("")
             }} key={result.symbol} className="dropdown-item">{result.description} ({result.symbol})
           
             </li>
