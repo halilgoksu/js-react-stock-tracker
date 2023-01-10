@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+  
+}
+
+
+.dropdown-menu{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: small;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  cursor: pointer;
+  height:150px;
+  width: fit-content;
+}
+.dropdown-item{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.btn-dark,.btn-outline-dark{
+  color:white;
+  font-size: large;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  .btn-dark,.btn-outline-dark{
+    font-size: x-small;
+  
+  }
+  .chart{
+    font-size: x-small;
+    width: max-content;
+  
+  }
+}
