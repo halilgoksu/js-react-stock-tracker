@@ -3,7 +3,7 @@ import { StockList } from "../components/StockList";
 import {AiOutlineStock}from "react-icons/ai"
 export const StockOverviewPage = () => {
   return (
-    <div className="flex-col text-center items-center justify-center  w-full h-full p-2">
+    <div className="flex-col text-center items-center justify-center  w-screen h-f p-2">
 
       <div className="flex flex-col text-center items-center justify-center 
       bg-black text-white">

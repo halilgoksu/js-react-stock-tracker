@@ -73,9 +73,9 @@ export const StockDetailPage = () => {
   }, [symbol]);
 
   return (
-    <div className="flex-col bg-black w-full h-full">
+    <div className="flex-col bg-black w-full h-screen">
       {chartData && (
-        <div>
+        <div className="w-full ">
           <StockChart  chartData={chartData} symbol={symbol} />
           <StockData  symbol={symbol} />
           <CreatedBy />

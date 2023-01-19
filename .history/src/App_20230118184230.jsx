@@ -10,7 +10,7 @@ import { NoDataApi } from "./pages/NoDataApi"
 
 export default function App() {
   return (
-    <main className="w-full h-screen items-center justify-center text-center bg-black">
+    <main className="w-screen h-full items-center justify-center text-center bg-black">
       <WatchListContextProvider>
         <BrowserRouter>
           <Routes>
